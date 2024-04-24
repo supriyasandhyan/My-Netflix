@@ -1,0 +1,69 @@
+.nav{
+    padding: 0px 30px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.nav-content{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.JOINbtn{
+    border: 0cap;
+    background-color: red;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.OUTbtn{
+    border: 0.3px solid white;
+    color: white;
+    background-color: black;
+    padding: 5px 25px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.spann{
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 768px) {
+   .nav-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    } 
+
+    .spann{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row ;
+    }
+    .JOINbtn{
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+    .OUTbtn{
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+
+
+}
+
+/* @media only screen and (min-width: 480px) {
+    .nav-content{
+        display: block;
+    } 
+} */
