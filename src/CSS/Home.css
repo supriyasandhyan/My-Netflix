@@ -1,0 +1,73 @@
+.home{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    padding: 50px 30px 10px 30px;  
+    display: flex;
+    flex-direction: row;
+}
+.home-one{
+    width: 50%;
+}
+.home-two{
+    width: 50%;
+}
+.home-h1{
+    font-size: xxx-large;
+    font-weight: 900;
+}
+.home-h5{
+    font-size: larger;
+    font-weight: 400;
+}
+
+.movie-categories{
+    padding: 20px 30px;
+    background-color: rgb(25, 25, 25);
+}
+.movie-categories>h3{
+ color: white;
+ margin: 20px 0px;
+ font-size: larger;
+ font-weight: 400;
+}
+
+.popular{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+.popular-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .home-one{
+        width: 100%;
+    }
+    .home-h5{
+        font-size: large;
+        font-weight: 400;
+    }
+    .home {
+        padding: 20px 30px 10px 30px;
+    }
+    .popular {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-h1 {
+        font-size: xx-large;
+    }
+    .home-two {
+        width: 0%;
+    }
+ }

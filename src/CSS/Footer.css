@@ -1,0 +1,104 @@
+.site-footer{
+    margin: 0 auto;
+    padding: 30px 30px;
+    /* width: 90%; */
+    background-color: #181818;
+}
+
+.footer-top{
+    margin: 0 0 30px;
+    padding: 0;
+}
+.footer-top-a{
+    color: #737373;
+}
+
+.structural{
+    margin: 0;
+    padding: 0;
+}
+ul.structural>li {
+    list-style: none;
+    margin-left: 0;
+}
+.footer-link-item{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 22px 0 0;
+    vertical-align: top;
+    width: 25%;
+}
+.footer-link{
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 1000px;
+    color: #737373;
+
+}
+.lang-selection-container{
+    margin-top: 20px;
+}
+.ui-select-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.ui-select-wrapper>.ui-label {
+    margin-bottom: 0;
+}
+.lang-selection-container .ui-label {
+    clip: rect(0 0 0 0);
+    border: 0;
+    display: block;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.ui-select.medium {
+    padding: 12px;
+}
+.ui-select {
+    appearance: none;
+    color: gray;
+    background-color: black;
+    border: 1px solid #b3b3b3;
+    border-radius: 2px;
+    font-size: 16px;
+    width: 100%;
+}
+.ui-select-wrapper .select-arrow {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.lang-selection-container .ui-select-wrapper .select-arrow.prefix .ui-select.medium {
+    padding-right: 26px;
+    text-indent: 0;
+}
+.ui-select-wrapper .select-arrow.prefix .ui-select.medium {
+    line-height: 1.7;
+    padding-left: 50px;
+}
+
+.dark .ui-select-wrapper .select-arrow.prefix:before, .dark .ui-select-wrapper .select-arrow:after {
+    color: #999;
+}
+.ui-select-wrapper .select-arrow.prefix.globe:before {
+    content: "\e896";
+}
+.lang-selection-container .ui-select-wrapper .select-arrow.prefix:before {
+    top: 14px;
+}
+.ui-select-wrapper .select-arrow.prefix:before {
+    color: #000;
+    font-family: nf-icon;
+    font-size: 16px;
+    pointer-events: none;
+    position: absolute;
+}
+

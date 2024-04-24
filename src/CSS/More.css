@@ -1,0 +1,38 @@
+.moree{
+    margin: 0 auto;
+    max-width: 730px;
+    color: white;
+    text-align: center;
+}
+.more-main{
+    background-color: rgb(25, 25, 25);
+    padding: 10px 0px;
+}
+.moree >h2{
+    font-weight: 500;
+}
+.moree >p{
+    font-size: 1.5em;
+    padding: 1em;
+    position: relative;
+    text-align: center;
+}
+.join-btn{
+    font-size: 20px;
+    padding: 12px 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+@media only screen and (max-width: 768px) {
+    .moree >p {
+        font-size: 16px;
+    }
+    .join-btn{
+        font-size: 10px;
+        padding: 6px 20px;
+    }
+}
+
+
